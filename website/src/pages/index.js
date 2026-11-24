@@ -1,0 +1,9 @@
+import React from 'react';
+import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
+export default function Home() {
+ return <Layout title="Trang chủ" description="Cùng khám phá thư viện chuẩn C++ bằng tiếng Việt"><main className="home">
+  <div className="home-inner"><div className="hero-copy"><div className="eyebrow"><span className="dot"/> MỘT KHÔNG GIAN HỌC C++</div><h1>Hiểu thư viện chuẩn.<br/><span>Viết C++ tự tin hơn.</span></h1><p className="lead">Cùng đọc <em>The C++ Standard Library</em> bằng tiếng Việt, kết nối những nền tảng vững chắc với góc nhìn C++ hiện đại.</p><div className="actions"><Link className="button button--primary button--lg" to="/docs/chuong-01">Bắt đầu với chương 1</Link><a className="text-link" href="#hanh-trinh">Khám phá hành trình</a></div><p className="source">Dựa trên ấn bản thứ hai · Nicolai M. Josuttis</p></div><div className="book-art" aria-hidden="true"><div className="book-top">THE STANDARD LIBRARY <span>02 / EDITION</span></div><div className="book-symbol">C<span>++</span></div><div className="book-line"/><div className="book-bottom">A TUTORIAL<br/>AND REFERENCE <span>VIỆT NGỮ<br/>EDITION</span></div></div></div>
+  <section className="journey" id="hanh-trinh"><div className="section-heading"><div><div className="eyebrow">BẮT ĐẦU TỪ NỀN TẢNG</div><h2>Mỗi trang sách, một bước tiến.</h2></div><p>Nội dung gốc và phần bổ sung được phân biệt rõ ràng để bạn dễ theo dõi.</p></div><div className="features"><article><span>01 / ĐỌC</span><h3>Hiểu bằng tiếng Việt</h3><p>Bản dịch giữ các thuật ngữ quan trọng, giúp bạn dễ đối chiếu với tài liệu gốc.</p></article><article><span>02 / KẾT NỐI</span><h3>Góc nhìn hiện đại</h3><p>Ghi chú bổ sung làm rõ bối cảnh C++11 và những thay đổi về sau.</p></article><article><span>03 / THỰC HÀNH</span><h3>Học qua ví dụ</h3><p>Các chương kỹ thuật sẽ có mã và hình minh họa khi phù hợp.</p></article></div></section>
+ </main></Layout>;
+}
